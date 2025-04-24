@@ -85,17 +85,17 @@ export const myProfile = {
     workExperience: [
         {
             id: 1,
-            jobTitle: 'mycv',
-            companyName: 'COMPANY NAME',
-            period: '2012 - 2015',
-            description: 'Definition about your job. Lorem ipsum dolor sit amet, de consectetur set adipiscing elit, sed dolore magna'
+            jobTitle: 'Mycv',
+            // companyName: 'COMPANY NAME',
+            // period: '2012 - 2015',
+            description: 'Simple product using: ReactJS, TailwindCSS, TypeScript'
         },
         {
             id: 2,
             jobTitle: 'MoviesApp',
-            companyName: 'COMPANY NAME',
-            period: '2012 - 2015',
-            description: 'Definition about your job. Lorem ipsum dolor sit amet, de consectetur set adipiscing elit, sed dolore magna'
+            // companyName: 'COMPANY NAME',
+            // period: '2012 - 2015',
+            description: 'Simple product using: HTML, CSS, ReactJS, TailwindCSS, TypeScript'
         }
     ]
 };

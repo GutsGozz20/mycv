@@ -9,10 +9,10 @@ const CVmyProject = () => {
           <div key={work.id} className="flex justify-between">
             <div className="flex-1">
               <h4 className="font-medium text-left text-gray-700">{work.jobTitle}</h4>
-              <p className="text-sm text-gray-600">{work.companyName}</p>
-              <p className="text-sm text-gray-500 mt-1">{work.description}</p>
+              {/* <p className="text-sm text-gray-600">{work.companyName}</p> */}
+              <p className="text-sm  text-left text-gray-500 mt-1">{work.description}</p>
             </div>
-            <div className="text-sm text-gray-500 ml-4">{work.period}</div>
+            {/* <div className="text-sm text-gray-500 ml-4">{work.period}</div> */}
           </div>
         ))}
       </div>

@@ -55,7 +55,7 @@ const MyCV = () => {
         {/* Name and Title */}
         <div className="name-title relative z-10 mb-8">
           <h1 className="text-4xl font-bold text-indigo-700">{myProfile.name}</h1>
-          <h2 className="text-2xl text-gray-500">{myProfile.title}</h2>
+          <h2 className="text-xl text-gray-500">{myProfile.title}</h2>
         </div>
         
         {/* About Me Section */}
