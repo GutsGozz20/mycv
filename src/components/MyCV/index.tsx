@@ -1,4 +1,3 @@
-import React from 'react'
 import { myProfile } from '../../data/myProfile';
 import CVExpertise from '../CVExpertise';
 import CVPersonalSkills from '../CVPersonalSkills';

@@ -2,7 +2,8 @@ export const myProfile = {
     // Personal Information
     name: 'NGUYEN THI DIEN',
     title: 'WEB DEVELOPER',
-    avatar: '/avatar.jpg', 
+    // avatar: window.location.href.includes('github.io') ? '/mycv/avatar.jpg' : '/avatar.jpg', 
+    avatar: 'avatar.jpg', 
     
     // Contact Information
     contact: [
@@ -45,39 +46,41 @@ export const myProfile = {
                 {id: 8, name: 'Java'},
                 {id: 9, name: 'PHP'},
                 {id: 10, name: 'Python'},
-                {id: 11, name: 'MongoDB'},
+                {id: 11, name: 'MySQL'},
+                {id: 12, name: 'MongoDB'},
+                {id: 13, name: 'Django'},
             
             ]
         },
         {
             category: 'Tools',
             skills: [
-                {id: 12, name: 'GitHub'},
-                {id: 13, name: 'VS Code'},
-                {id: 14, name: 'Postman'},
-                {id: 15, name: 'Shell'},
+                {id: 14, name: 'GitHub'},
+                {id: 15, name: 'VS Code'},
+                {id: 16, name: 'Postman'},
+                {id: 17, name: 'Shell'},
             ]
         },
         {
             category: 'Soft Skills',
             skills: [
-                {id: 17, name: 'Teamwork'},
-                {id: 18, name: 'Communication'},
-                {id: 19, name: 'Problem Solving'},
-                {id: 20, name: 'Time Management'},
-                {id: 21, name: 'Adaptability'},
+                {id: 18, name: 'Teamwork'},
+                {id: 19, name: 'Communication'},
+                {id: 20, name: 'Problem Solving'},
+                {id: 21, name: 'Time Management'},
+                {id: 22, name: 'Adaptability'},
             ]
         },
-        // {
-        //     category: 'AI & ML',
-        //     skills: [
-        //         {id: 8, name: 'TensorFlow'},
-        //         {id: 9, name: 'PyTorch'},
-        //         {id: 10, name: 'Python AI'},
-        //         {id: 11, name: 'Machine Learning'},
-        //         {id: 12, name: 'Deep Learning'},
-        //     ]
-        // },
+        {
+            category: 'AI & ML',
+            skills: [
+                {id: 23, name: 'TensorFlow'},
+                {id: 24, name: 'PyTorch'},
+                {id: 25, name: 'Python AI'},
+                {id: 26, name: 'Machine Learning'},
+                {id: 27, name: 'Deep Learning'},
+            ]
+        },
     ],
     
  
