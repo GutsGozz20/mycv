@@ -48,7 +48,7 @@ export const myProfile = {
                 {id: 10, name: 'Python'},
                 {id: 11, name: 'MySQL'},
                 {id: 12, name: 'MongoDB'},
-                {id: 13, name: 'Django'},
+                // {id: 13, name: 'Django'},
             
             ]
         },
@@ -89,15 +89,16 @@ export const myProfile = {
         {
             id: 1,
             jobTitle: 'Mycv',
-            // companyName: 'COMPANY NAME',
-            // period: '2012 - 2015',
             description: 'Simple product using: ReactJS, TailwindCSS, TypeScript'
         },
         {
             id: 2,
             jobTitle: 'MoviesApp',
-            // companyName: 'COMPANY NAME',
-            // period: '2012 - 2015',
+            description: 'Simple product using: HTML, CSS, ReactJS, TailwindCSS, TypeScript, fe'
+        },
+        {
+            id: 3,
+            jobTitle: 'WeatherApp',
             description: 'Simple product using: HTML, CSS, ReactJS, TailwindCSS, TypeScript'
         }
     ]

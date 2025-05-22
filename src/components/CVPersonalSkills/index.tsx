@@ -20,7 +20,7 @@ const getIconPath = (name: string): string => {
     case 'java': return `${basePath}icons/icons8-java-48.png`;
     case 'mysql': return `${basePath}icons/icons8-mysql-48.png`;
     case 'mongodb': return `${basePath}icons/icons8-mongo-db-32.png`;
-    case 'django': return `${basePath}icons/icons8-django-24.png`;
+    // case 'django': return `${basePath}icons/icons8-django-24.png`;
     
     
     // Tools
