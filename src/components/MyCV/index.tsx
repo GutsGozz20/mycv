@@ -8,7 +8,7 @@ import CVContact from '../CVContact';
 const MyCV = () => {
   return (
     <div className='flex shadow-xl max-w-5xl mx-auto my-8 bg-white'>
-      <div className="col_left w-[220px] bg-indigo-700 p-6 relative overflow-hidden">
+      <div className="col_left w-[250px] bg-indigo-700 p-6 relative overflow-hidden">
         {/* Profile Image */}
         <div className="profile-image relative z-10 mb-6">
           <div className="rounded-full w-36 h-36 mx-auto overflow-hidden border-4 border-white">

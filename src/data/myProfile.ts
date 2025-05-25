@@ -1,7 +1,7 @@
 export const myProfile = {
     // Personal Information
     name: 'NGUYEN THI DIEN',
-    title: 'WEB DEVELOPER',
+    title: 'WEB DEVELOPER ',
     // avatar: window.location.href.includes('github.io') ? '/mycv/avatar.jpg' : '/avatar.jpg', 
     avatar: 'avatar.jpg', 
     
@@ -9,15 +9,17 @@ export const myProfile = {
     contact: [
         {id: 1, name: 'Phone', content: '0353711902'},
         {id: 2, name: 'Email', content: 'dienchau2002@gmail.com'},
-        {id: 3, name: 'Address', content: 'Da Nang City, Viet Nam'},
+        {id: 3, name: 'GitHub', content: 'https://github.com/GutsGozz20'},
+        {id: 4, name: 'Address', content: 'Da Nang City, Viet Nam'},
+        
     ],
 
     // About Me
-    aboutMe: 'I am a passionate and dedicated developer with a strong interest in building user-friendly and efficient web applications. With a good understanding of modern technologies and a continuous desire to learn, I strive to create impactful digital experiences. I value clean code, creative problem solving, and effective teamwork.',
+    aboutMe: ' I’m an Information Technology student passionate about web development and AI. Experienced in building user-friendly web applications using modern technologies. Strong focus on clean code, problem-solving, and continuous learning. Eager to create impactful digital experiences through responsive interfaces and AI integration.',
     
     // Technical Skills
     expertise: [
-        {id: 1, name: 'MS Word', rank: 4},
+        {id: 1, name: 'Word', rank: 4},
         {id: 2, name: 'Excel', rank: 3},
         {id: 3, name: 'Photoshop', rank: 3},
         // {id: 4, name: 'Illustrator', rank: 3},
@@ -100,6 +102,11 @@ export const myProfile = {
             id: 3,
             jobTitle: 'WeatherApp',
             description: 'Simple product using: HTML, CSS, ReactJS, TailwindCSS, TypeScript'
+        },
+        {
+            id: 4,
+            jobTitle: 'ai-house_price_prediction',
+            description: 'Simple product using: HTML, CSS, Python, Multiple Linear Regression'
         }
     ]
 };
